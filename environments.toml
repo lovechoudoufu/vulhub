@@ -767,7 +767,7 @@ app = "kkFileView"
 path = "kkfileview/4.3-zipslip-rce"
 
 [[environment]]
-name = "Laravel Ignition 2.5.1 Code Execution"
+name = "Laravel Ignition 2.5.1 Remote Code Execution"
 cve = ["CVE-2021-3129"]
 app = "Laravel"
 path = "laravel/CVE-2021-3129"
@@ -785,7 +785,7 @@ app = "LibSSH"
 path = "libssh/CVE-2018-10933"
 
 [[environment]]
-name = "Liferay Portal CE Deserialization Command Execution"
+name = "Liferay Portal CE Deserialization Remote Code Execution"
 cve = ["CVE-2020-7961"]
 app = "Liferay Portal"
 path = "liferay-portal/CVE-2020-7961"
@@ -857,7 +857,7 @@ app = "Mongo Express"
 path = "mongo-express/CVE-2019-10758"
 
 [[environment]]
-name = "MySQL Authentication Bypass"
+name = "MySQL Authentication Bypass Vulnerability"
 cve = ["CVE-2012-2122"]
 app = "MySQL"
 path = "mysql/CVE-2012-2122"
@@ -1313,7 +1313,7 @@ app = "Apache Solr"
 path = "solr/Remote-Streaming-Fileread"
 
 [[environment]]
-name = "Apache Spark Unauthorized Access Leak"
+name = "Apache Spark Unauthorized Access Leads to Remote Code Execution"
 cve = []
 app = "Apache Spark"
 path = "spark/unacc"
