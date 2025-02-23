@@ -467,7 +467,7 @@ app = "Git"
 path = "git/CVE-2017-8386"
 
 [[environment]]
-name = "Gitea 1.4.0 Directory Traversal to Command Execution"
+name = "Gitea 1.4.0 Directory Traversal Leading to Remote Command Execution"
 cve = []
 app = "Gitea"
 path = "gitea/1.4-rce"
@@ -635,19 +635,19 @@ app = "Java RMI"
 path = "java/rmi-registry-bind-deserialization-bypass"
 
 [[environment]]
-name = "JBoss 5.x/6.x Deserialization"
+name = "JBoss 5.x/6.x Deserialization Remote Code Execution"
 cve = ["CVE-2017-12149"]
 app = "JBoss"
 path = "jboss/CVE-2017-12149"
 
 [[environment]]
-name = "JBoss 4.x JBossMQ JMS Deserialization"
+name = "JBoss 4.x JBossMQ JMS Deserialization Remote Code Execution"
 cve = ["CVE-2017-7504"]
 app = "JBoss"
 path = "jboss/CVE-2017-7504"
 
 [[environment]]
-name = "JBoss JMXInvokerServlet Deserialization"
+name = "JBoss JMXInvokerServlet Deserialization Remote Code Execution"
 cve = []
 app = "JBoss"
 path = "jboss/JMXInvokerServlet-deserialization"
@@ -791,7 +791,7 @@ app = "Liferay Portal"
 path = "liferay-portal/CVE-2020-7961"
 
 [[environment]]
-name = "Apache Log4j Server Deserialization Command Execution"
+name = "Apache Log4j TCP Server Deserialization Remote Code Execution"
 cve = ["CVE-2017-5645"]
 app = "Apache Log4j"
 path = "log4j/CVE-2017-5645"
@@ -905,37 +905,37 @@ app = "Nexus Repository Manager"
 path = "nexus/CVE-2024-4956"
 
 [[environment]]
-name = "Nginx Filename Logic"
+name = "Nginx Filename Logic Vulnerability"
 cve = ["CVE-2013-4547"]
 app = "Nginx"
 path = "nginx/CVE-2013-4547"
 
 [[environment]]
-name = "Nginx Out-of-Bounds Read Cache"
+name = "Nginx Cache Leak by Integer Overflow"
 cve = ["CVE-2017-7529"]
 app = "Nginx"
 path = "nginx/CVE-2017-7529"
 
 [[environment]]
-name = "Nginx Configuration Errors"
+name = "Nginx Misconfiguration Vulnerabilities"
 cve = []
 app = "Nginx"
 path = "nginx/insecure-configuration"
 
 [[environment]]
-name = "Nginx Parsing"
+name = "Nginx Parsing Vulnerability"
 cve = []
 app = "Nginx"
 path = "nginx/nginx_parsing_vulnerability"
 
 [[environment]]
-name = "NodeJS Directory Traversal"
+name = "Node.js 8.5.0 Path Traversal"
 cve = ["CVE-2017-14849"]
 app = "Node.JS"
 path = "node/CVE-2017-14849"
 
 [[environment]]
-name = "node-postgres Code Execution"
+name = "Node-Postgres Remote Code Execution"
 cve = ["CVE-2017-16082"]
 app = "node-postgres"
 path = "node/CVE-2017-16082"
@@ -1583,13 +1583,13 @@ app = "V2board"
 path = "v2board/1.6-privilege-escalation"
 
 [[environment]]
-name = "WebLogic < 10.3.6 'wls-wsat' XMLDecoder Deserialization"
+name = "WebLogic < 10.3.6 'wls-wsat' XMLDecoder Deserialization Remote Command Execution"
 cve = ["CVE-2017-10271"]
 app = "WebLogic"
 path = "weblogic/CVE-2017-10271"
 
 [[environment]]
-name = "WebLogic WLS Core Components Deserialization Command Execution"
+name = "Weblogic WLS Core Components Deserialization Remote Command Execution"
 cve = ["CVE-2018-2628"]
 app = "WebLogic"
 path = "weblogic/CVE-2018-2628"
