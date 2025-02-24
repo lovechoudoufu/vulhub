@@ -833,7 +833,7 @@ app = "MeterSphere"
 path = "metersphere/plugin-rce"
 
 [[environment]]
-name = "mini_httpd Arbitrary File Read"
+name = "ACME mini_httpd Arbitrary File Read"
 cve = ["CVE-2018-18778"]
 app = "mini_httpd"
 path = "mini_httpd/CVE-2018-18778"
@@ -1205,7 +1205,7 @@ app = "Apache RocketMQ"
 path = "rocketmq/CVE-2023-37582"
 
 [[environment]]
-name = "rsync Unauthorized Access"
+name = "Rsync Unauthorized Access"
 cve = []
 app = "rsync"
 path = "rsync/common"
@@ -1253,7 +1253,7 @@ app = "Apache Shiro"
 path = "shiro/CVE-2010-3863"
 
 [[environment]]
-name = "Apache Shiro 1.2.4 Deserialization"
+name = "Apache Shiro 1.2.4 Deserialization Remote Code Execution"
 cve = ["CVE-2016-4437"]
 app = "Apache Shiro"
 path = "shiro/CVE-2016-4437"
@@ -1493,7 +1493,7 @@ app = "Apache Struts2"
 path = "struts2/s2-067"
 
 [[environment]]
-name = "Supervisord Remote Command Execution"
+name = "Supervisord XML-RPC Remote Command Execution"
 cve = ["CVE-2017-11610"]
 app = "Supervisor"
 path = "supervisor/CVE-2017-11610"
@@ -1673,7 +1673,13 @@ app = "Zabbix"
 path = "zabbix/CVE-2016-10134"
 
 [[environment]]
+name = "Zabbix Server Active Proxy Trapper Command Injection"
+cve = ["CVE-2017-2824"]
 app = "Zabbix"
+path = "zabbix/CVE-2017-2824"
+
+[[environment]]
+name = "Zabbix Server Active Proxy Trapper Command Injection Bypass"
 cve = ["CVE-2020-11800"]
+app = "Zabbix"
 path = "zabbix/CVE-2020-11800"
-name = "Zabbix Server Trapper Command Injection"
