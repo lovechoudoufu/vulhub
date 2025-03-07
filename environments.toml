@@ -227,13 +227,13 @@ app = "Discuz!"
 path = "discuz/x3.4-arbitrary-file-deletion"
 
 [[environment]]
-name = "Django debug page XSS Flaw"
+name = "Django 500 Debug Page Cross-Site Scripting (XSS)"
 cve = ["CVE-2017-12794"]
 app = "Django"
 path = "django/CVE-2017-12794"
 
 [[environment]]
-name = "Django < 2.0.8 Arbitrary URL Redirection"
+name = "Django < 2.0.8 Open Redirect in CommonMiddleware"
 cve = ["CVE-2018-14574"]
 app = "Django"
 path = "django/CVE-2018-14574"
@@ -275,13 +275,13 @@ app = "Docker"
 path = "docker/unauthorized-rce"
 
 [[environment]]
-name = "Drupal < 7.32 'Drupalgeddon' SQL Injection"
+name = 'Drupal < 7.32 "Drupalgeddon" SQL Injection'
 cve = ["CVE-2014-3704"]
 app = "Drupal"
 path = "drupal/CVE-2014-3704"
 
 [[environment]]
-name = "Drupal Core 8 PECL YAML Deserialization Arbitrary Code Execution"
+name = "Drupal Core 8 PECL YAML Deserialization Remote Code Execution"
 cve = ["CVE-2017-6920"]
 app = "Drupal"
 path = "drupal/CVE-2017-6920"
@@ -299,13 +299,13 @@ app = "Drupal"
 path = "drupal/CVE-2018-7602"
 
 [[environment]]
-name = "Drupal Remote Code Execution"
+name = "Drupal Remote Code Execution by phar deserialization"
 cve = ["CVE-2019-6339"]
 app = "Drupal"
 path = "drupal/CVE-2019-6339"
 
 [[environment]]
-name = "Drupal XSS"
+name = "# Drupal Cross-Site Scripting by File Upload"
 cve = ["CVE-2019-6341"]
 app = "Drupal"
 path = "drupal/CVE-2019-6341"
@@ -1139,7 +1139,7 @@ app = "PostgreSQL"
 path = "postgres/CVE-2018-1058"
 
 [[environment]]
-name = "PostgreSQL High Privilege Command Execution"
+name = "PostgreSQL Arbitrary Command Execution with Admin Privileges"
 cve = ["CVE-2019-9193"]
 app = "PostgreSQL"
 path = "postgres/CVE-2019-9193"
