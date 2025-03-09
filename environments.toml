@@ -215,7 +215,7 @@ app = "OpenPrinting Cups-Browsed"
 path = "cups-browsed/CVE-2024-47177"
 
 [[environment]]
-name = "Discuz 7.x/6.x Global Variable Defense Bypass to Code Execution"
+name = "Discuz 7.x/6.x Remote Code Execution via Global Variable Override"
 cve = []
 app = "Discuz!"
 path = "discuz/wooyun-2010-080723"
@@ -389,31 +389,31 @@ app = "Fastjson"
 path = "fastjson/1.2.47-rce"
 
 [[environment]]
-name = "FFmpeg Arbitrary File Read/SSRF"
+name = "FFmpeg Arbitrary File Read and SSRF"
 cve = ["CVE-2016-1897", "CVE-2016-1898"]
 app = "FFmpeg"
 path = "ffmpeg/CVE-2016-1897"
 
 [[environment]]
-name = "FFmpeg Arbitrary File Read"
+name = "FFmpeg AVI Arbitrary File Read"
 cve = ["CVE-2017-9993"]
 app = "FFmpeg"
-path = "ffmpeg/phdays"
+path = "ffmpeg/CVE-2017-9993"
 
 [[environment]]
-name = "Jinja2 SSTI Template Injection"
+name = "Flask (Jinja2) Server-Side Template Injection"
 cve = []
 app = "Jinja2"
 path = "flask/ssti"
 
 [[environment]]
-name = "Apache Flink File Upload"
+name = "Apache Flink Upload Path Traversal"
 cve = ["CVE-2020-17518"]
 app = "Apache Flink"
 path = "flink/CVE-2020-17518"
 
 [[environment]]
-name = "Apache Flink Jobmanager/Logs Directory Traversal"
+name = "Apache Flink `jobmanager/logs` Path Traversal"
 cve = ["CVE-2020-17519"]
 app = "Apache Flink"
 path = "flink/CVE-2020-17519"
@@ -491,10 +491,10 @@ app = "GitList"
 path = "gitlist/CVE-2018-1000533"
 
 [[environment]]
-name = "GlassFish Arbitrary File Read"
-cve = []
+name = "GlassFish 4.1.0 Arbitrary File Read"
+cve = ["CVE-2017-1000028"]
 app = "GlassFish"
-path = "glassfish/4.1.0"
+path = "glassfish/CVE-2017-1000028"
 
 [[environment]]
 name = "GoAhead Remote Command Execution"
@@ -623,13 +623,13 @@ app = "Java RMI"
 path = "java/rmi-codebase"
 
 [[environment]]
-name = "Java RMI Registry Deserialization Vulnerability (<=jdk8u111)"
+name = "Java ≤JDK 8u111 RMI Registry Deserialization Remote Code Execution"
 cve = []
 app = "Java RMI"
 path = "java/rmi-registry-bind-deserialization"
 
 [[environment]]
-name = "Java RMI Registry Deserialization Vulnerability (<jdk8u232_b09)"
+name = "Java < JDK8u232_b09 RMI Registry Deserialization Remote Code Execution Bypass"
 cve = []
 app = "Java RMI"
 path = "java/rmi-registry-bind-deserialization-bypass"
@@ -759,6 +759,12 @@ name = "Kibana Prototype Chain Pollution to Arbitrary Code Execution"
 cve = ["CVE-2019-7609"]
 app = "Kibana"
 path = "kibana/CVE-2019-7609"
+
+[[environment]]
+name = "Kibana 7.6.2 upgrade-assistant-telemetry Prototype Pollution Leads to RCE"
+cve = ["CVE-2020-7012"]
+app = "Kibana"
+path = "kibana/CVE-2020-7012"
 
 [[environment]]
 name = "kkFileView ZipSlip Remote Code Execution"
@@ -1505,7 +1511,7 @@ app = "TeamCity"
 path = "teamcity/CVE-2023-42793"
 
 [[environment]]
-name = "ThinkPHP 2.x Arbitrary Code Execution"
+name = "ThinkPHP 2.x Remote Code Execution"
 cve = []
 app = "ThinkPHP"
 path = "thinkphp/2-rce"
